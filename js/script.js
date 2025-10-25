@@ -1,9 +1,16 @@
-const userName = prompt("Please enter your name:");
- if (userName) {
-      document.getElementById("h2-Padding").textContent = userName;
-    } else {
-      alert = "No name provided";
-    }
+let userName = "";
+
+// Loop sampai user mengisi nama
+while (!userName) {
+  userName = prompt("Masukkan nama Anda:");
+
+  if (!userName) {
+    alert("Nama wajib diisi! Silakan masukkan nama Anda.");
+  }
+}
+
+// Tampilkan nama ke elemen HTML
+document.getElementById("h2-Padding").textContent = userName;
 
  function scrollToSection(sectionId) {
   document.getElementById(sectionId).scrollIntoView({
