@@ -13,22 +13,69 @@
   <div class="top-head">
     <img id="Forest-Img"src="https://fastly.picsum.photos/id/33/5000/3333.jpg?hmac=h5NVRcUXmsWm612YQOroHSA5n9R7gxZgoP60LHBPHtw" alt="">
    <section class="nav-one"> 
-     <nav>Home</nav>
-    <nav>Our Profile</nav>
-    <nav>Portofolio</nav>
-    <nav>Message Us</nav>
+      <nav id="nav-home">Home</nav>
+      <nav id="nav-profile">Our Profile</nav>
+      <nav id="nav-portfolio">Portofolio</nav>
+      <nav id="nav-message">Message Us</nav>
    </section>
   </div>
  </header>
  <Main>
  <div class="High-Div">
     <h2>Hi <padding id="h2-Padding"></padding> Welcome </h2>
-    <p>Welcome</p>
-
+    <p>Welcome to my Page</p>
  </div>
- <div></div>
- <div></div>
- <footer>
+ <div class="Mid-Div">
+   <h2>Welcome<h2>
+   <img class="Mid-img"src="https://fastly.picsum.photos/id/19/2500/1667.jpg?hmac=7epGozH4QjToGaBf_xb2HbFTXoV5o8n_cYzB7I4lt6g" alt="">
+   <img class="Mid-img"src="https://fastly.picsum.photos/id/19/2500/1667.jpg?hmac=7epGozH4QjToGaBf_xb2HbFTXoV5o8n_cYzB7I4lt6g" alt="">
+   <img class="Mid-img"src="https://fastly.picsum.photos/id/19/2500/1667.jpg?hmac=7epGozH4QjToGaBf_xb2HbFTXoV5o8n_cYzB7I4lt6g" alt="">
+ </div>
+<div class="Low-Div">
+  <section class="message-container">
+
+    <!-- Bagian Form -->
+    <div class="form-section">
+      <h3>Message Us</h3>
+
+      <form id="messageForm">
+        <label for="name">Nama :</label>
+        <input type="text" id="name" placeholder="Nama" required>
+
+        <label for="birthdate">Tanggal Lahir :</label>
+        <input type="date" id="birthdate" required>
+
+        <label>Jenis Kelamin :</label>
+        <div class="radio-group">
+          <label>
+            <input type="radio" name="gender" value="Laki-Laki" checked>
+            Laki-Laki
+          </label>
+          <label>
+            <input type="radio" name="gender" value="Perempuan">
+            Perempuan
+          </label>
+        </div>
+
+        <label for="message">Pesan :</label>
+        <textarea id="message" placeholder="Pesan" rows="3"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <!-- Bagian Hasil -->
+    <div class="result-section">
+      <p><strong>Current time:</strong> <span id="time"></span></p>
+      <p><strong>Nama :</strong> <span id="r-name"></span></p>
+      <p><strong>Tanggal Lahir :</strong> <span id="r-birth"></span></p>
+      <p><strong>Jenis Kelamin :</strong> <span id="r-gender"></span></p>
+      <p><strong>Pesan :</strong> <span id="r-message"></span></p>
+    </div>
+
+  </section>
+</div>
+<footer>
       <p id="Foot-text">Created by Ego</p>
 </footer>
  </Main>
