@@ -1,6 +1,6 @@
 let userName = "";
 
-// Loop sampai user mengisi nama
+
 while (!userName) {
   userName = prompt("Masukkan nama Anda:");
 
@@ -9,7 +9,7 @@ while (!userName) {
   }
 }
 
-// Tampilkan nama ke elemen HTML
+
 document.getElementById("h2-Padding").textContent = userName;
 
  function scrollToSection(sectionId) {
