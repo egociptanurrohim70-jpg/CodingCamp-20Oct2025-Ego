@@ -1,4 +1,4 @@
-.Top-Div{
+.top-head{
     display: flex;
     margin: 0 100% 0 0;
     padding: 0 100% 0 0;
@@ -14,8 +14,9 @@ p {
 }
 .nav-one {
     display:flex;
-    justify-items: flex-end;
-    align-content: flex-end;
+
+    right: 100px;
+
 }
 nav{
     display: flex;
