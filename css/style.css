@@ -1,3 +1,8 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(120, 120, 228);
+
+}
 .top-head {
   display: flex;
   justify-content: space-between;
@@ -18,12 +23,13 @@ p {
 
 .nav-one {
   display: flex;
-  gap: 100px; 
+  gap: 10px; 
   margin: 0 20px;
+  ;
 }
 
 nav {
-  width: 10px;
+  width: 80px;
   height: 50px;
   padding: 0 10px 0 0;
   border-radius: 10px;
@@ -31,6 +37,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
 }
 .High-Div {
   margin-top: 10px;
@@ -117,7 +124,10 @@ button {
 button:hover {
   background-color: #e2e2e2;
 }
-
+.result-section {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
 .result-section p {
   margin: 5px 0;
 }
